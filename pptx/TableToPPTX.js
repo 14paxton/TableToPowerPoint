@@ -1,7 +1,7 @@
 import React, {forwardRef, useCallback, useEffect, useRef} from 'react';
 import {usePagedRowsToBuildPPTX} from "./util/PPTXHooks";
 import PPTTableHeader from "./PPTTableHeader";
-import RecursiveComponent from "../../common/util/RecursiveComponent";
+import RecursiveComponent from "./PPTTableHeader";
 
 const PPTXHeader = forwardRef((props, ref) => {
     const {assessmentName, nameForGridGrouping, children, ...rest} = props

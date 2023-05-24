@@ -1,6 +1,6 @@
 import React, {useCallback, useContext, useEffect, useState} from "react";
 import {preLoadTalentGridToPPT} from "./createPPT";
-import CurrentUserContext from "../../../common/context/CurrentUserContext";
+import CurrentUserContext from "common/context/CurrentUserContext";
 import {defaultPPTReturnObject} from "./PPTXCommon";
 import {useTalentGridPPTXContext} from "../TalentGridPPTXContext";
 

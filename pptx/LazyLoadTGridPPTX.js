@@ -1,6 +1,6 @@
 import React, {useCallback, useRef, useState} from 'react';
 import {TalentGridPPTXProvider} from "./TalentGridPPTXContext";
-import TableToPPTX from "containers/pptx/TableToPPTX.js";
+import TableToPPTX from "./TableToPPTX";
 
 function LazyLoadTGridPPTX({children, ...rest}) {
     const tableRef = useRef()

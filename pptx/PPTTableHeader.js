@@ -1,5 +1,5 @@
 import React, {forwardRef} from 'react';
-import logo from "../investment/pages/splash/images/talent-plus-logo-white.png";
+import logo from "common/images/talent-plus-logo-white.png";
 import {styled} from "@material-ui/styles";
 import {Typography} from "@material-ui/core";
 import Card from "@material-ui/core/Card";

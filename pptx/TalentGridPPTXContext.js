@@ -1,5 +1,5 @@
 import React, {useCallback, useContext, useEffect, useMemo} from 'react';
-import worker_script from "containers/pptx/util/ppt.worker.js";
+import worker_script from "./util/ppt.worker";
 
 // const myWorker = new Worker(worker_script)
 const TalentGridPPTXContext = React.createContext({setLoadingExportData: () => {}, setDataCached: () => {}, myWorker: null});
